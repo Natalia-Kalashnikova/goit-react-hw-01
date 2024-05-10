@@ -1,0 +1,66 @@
+.containerProfile {
+  width: 500px;
+  border: 3px solid black;
+  border-radius: 12px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+.profile {
+  padding: 20px;
+}
+.img {
+  border: none;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-color: black;
+}
+.name {
+  font-size: 38px;
+  font-family: Arial;
+  font-weight: 600;
+  line-height: 0.5;
+}
+.text {
+  font-size: 32px;
+  line-height: 0.5;
+  letter-spacing: 0.02em;
+  color: gray;
+  font-weight: 450;
+}
+.statsList {
+  padding: 0px;
+  margin: 0px;
+
+  display: flex;
+  justify-content: space-between;
+
+  border-top: 2px solid #808080;
+  background-color: #d3d3d3;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.statsList > li {
+  border-right: 2px solid #808080;
+  text-align: center;
+  padding: 40px 8px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 3);
+}
+
+.statsList > li:last-child {
+  border-right: none;
+}
+
+.statName {
+  font-size: 28px;
+}
+
+.statData {
+  font-size: 28px;
+  font-weight: 700;
+}
