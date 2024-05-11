@@ -1,6 +1,6 @@
-import css from "./Profile.module.css"
+import css from "./Profile.module.css";
 
-function Profile({ name, tag, location, image, stats: { followers, views, likes } }) {
+function Profile ({ name, tag, location, image, stats: { followers, views, likes } }) {
     return (
         <div className={css.containerProfile}>
   <div className={css.profile}>
